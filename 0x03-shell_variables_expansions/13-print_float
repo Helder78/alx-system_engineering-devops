@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$NUM this is a float $100.00"
