@@ -1,0 +1,3 @@
+#!/bin/bash
+SUM_BASE_BESTCHOL=$(bc <<< "ibase=water; $WATER + ibase=stir; $STIR")
+echo "obase=bestchol; $SUM_BASE_BESTCHOL" | bc
