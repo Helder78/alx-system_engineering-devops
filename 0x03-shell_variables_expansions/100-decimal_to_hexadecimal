@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $((printf 10#$DECIMAL))
+HEX=HEX=$(printf "%X\n" "$DECIMAL")
+echo "$HEX"
